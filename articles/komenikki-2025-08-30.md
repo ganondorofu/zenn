@@ -41,7 +41,9 @@ https://education.github.com/pack/offers
 
 #### 1. GitHubの設定から2段階認証を有効化する。
 
-https://github.com/settings/security 上のリンクから設定にアクセスしてGoogle Authenticatorをスマホに入れて設定してください。
+https://github.com/settings/security 
+
+上のリンクから設定にアクセスしてGoogle Authenticatorをスマホに入れて設定してください。
 
 #### 2. Billing informationを入力する。
 

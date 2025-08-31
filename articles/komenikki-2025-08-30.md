@@ -1,5 +1,5 @@
 ---
-title: "GitHub Educationの登録方法"
+title: "GitHub Educationで無料のGitHub Proを享受する"
 emoji: "🤑"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [github,githubeducation,ai,githubcopilot]

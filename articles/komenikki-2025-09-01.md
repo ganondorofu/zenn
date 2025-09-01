@@ -3,7 +3,7 @@ title: "ProxmoxにmacOSを入れてみる"
 emoji: "🍎"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [macOS, Proxmox, OpenCore, Hackintosh]
-published: false
+published: true
 ---
 
 # ProxmoxにmacOSを入れてみる
@@ -103,7 +103,7 @@ https://github.com/luchina-gabriel/OSX-PROXMOX?tab=readme-ov-file
 
    今度はReInstallMacを選択します。
 
-   ![ReInstallMac選択画面](/images/komenikki-2025-09-01/reinstall_reinstall.png)
+   ![RmacOS再インストール画面](/images/komenikki-2025-09-01/reinstall_reinstall.png)
 
     その後は画面の指示に従いインストールを進めます。
 

@@ -24,7 +24,7 @@ published: true
 OSX-PROXMOX - Run macOS on ANY Computer (AMD & Intel)  
 https://github.com/luchina-gabriel/OSX-PROXMOX?tab=readme-ov-file
 
-## 手順の流れ
+## 手順
 
 1. **OSX-PROXMOXをインストールする**  
    以下のコマンドをmacOSをインストールしたいProxmoxホストShellで実行します。
@@ -33,7 +33,7 @@ https://github.com/luchina-gabriel/OSX-PROXMOX?tab=readme-ov-file
    /bin/bash -c "$(curl -fsSL https://install.osx-proxmox.com)"
    ```
 
-   ダウンロード後、ランダムなキーを生成するかとmacOSの製品名を問われます。筆者はキー生成はyでmacOSの製品名はもともと書いてあった内容を入力しました。
+   ダウンロード後、ランダムなキーを生成するかとmacOSの製品名を問われます。筆者はキー生成はyでmacOSの製品名はもともと書いてあった内容をそのまま入力しました。
 
    その後自動的に再起動しますが、その際VMやコンテナが起動していると再起動しないことがあります。再起動しない場合は、手動ですべてのVMやコンテナをシャットダウンしてください。
 
@@ -91,24 +91,29 @@ https://github.com/luchina-gabriel/OSX-PROXMOX?tab=readme-ov-file
    完了したらWebUIに戻りVMを起動します。
 
 3. **macOSのインストール**  
-   起動が終わるとmacOSの再インストール画面が表示されるのでDisk Utilityを起動します。
+   起動が終わるとVMのコンソールにmacOSの再インストール画面が表示されるのでDisk Utilityを起動します。
 
-   ![macOS再インストール画面](/images/komenikki-2025-09-01/reinstall_disk.png)
+   以下の画像のように、macOSの再インストール画面が表示されます：
 
-   Apple Inc.VirtIO Block MediaをEraseします。
+   ![macOS再インストール画面 - Disk Utilityを選択](/images/komenikki-2025-09-01/reinstall_disk.png)
 
-   ![Disk Utility画面](/images/komenikki-2025-09-01/disk_utility.png)
+   次に、Apple Inc.VirtIO Block MediaをEraseします。
+
+   以下の画像のように、Disk Utilityでディスクを選択してEraseを実行してください：
+
+   ![Disk Utility画面 - ディスクのErase操作](/images/komenikki-2025-09-01/disk_utility.png)
 
    完了後左上のリンゴマークからRestartをクリックし再起動します。
 
    今度はReInstallMacを選択します。
 
-   ![RmacOS再インストール画面](/images/komenikki-2025-09-01/reinstall_reinstall.png)
+   以下の画像のように、再インストールオプションを選択してください：
 
-    その後は画面の指示に従いインストールを進めます。
+   ![macOS再インストール画面 - ReInstallMacを選択](/images/komenikki-2025-09-01/reinstall_reinstall.png)
 
-    これにて完了です。
-    お疲れさまでした。
+   その後は画面の指示に従いインストールを進めます。
+
+   これにて完了です。お疲れさまでした。
 ---
 
 ## トラブルシューティング
@@ -135,7 +140,6 @@ https://github.com/luchina-gabriel/OSX-PROXMOX?tab=readme-ov-file
 
 Proxmox上でmacOSを動かすのは手間もありますが、動いたときの感動は大きいです。  
 実用性は限定的ですが、仮想化の仕組みを理解する良い題材になると思います。  
-今後は、より新しいmacOSバージョンへの対応や、パフォーマンスの改善を期待しています。  
 皆さんもぜひ試してみてください！
 
 ---

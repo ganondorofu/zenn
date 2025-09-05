@@ -1,12 +1,12 @@
 ---
-title: "ProxmoxにmacOSを入れてみる"
+title: "ProxmoxにmacOSをインストールする"
 emoji: "🍎"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [macOS, Proxmox, OpenCore, Hackintosh]
 published: true
 ---
 
-# ProxmoxにmacOSを入れてみる
+# ProxmoxにmacOSをインストールする
 
 ## はじめに
 
